@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Cards Game</title>
+    <link rel="stylesheet" href="../external css.css">
+
+    
+</head>
+<body>
+    <div id="login-page" class="login">
+        <h1>Login Here :</h1>
+        <label for="username">UserName :</label>
+        <input type="text" id="username" placeholder="Enter your name"><br><br>
+        <label for="email">E-Mail :</label>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        <button id="login-btn">Login</button>
+    </div>
+
+    <div id="game-page" style="display: none;">
+        <div id="user-info">
+            <p id="user-details"></p>
+            <p id="level"></p>
+            <p id="timer">Time: <span id="time">0</span> seconds</p>
+        </div>
+        <button id="start-btn">Start Game</button>
+        <button id="restart-btn" style="display: none;">Restart Game</button>
+        <select id="level-select">
+            <option value="1">Level 1 (4 cards)</option>
+            <option value="2">Level 2 (8 cards)</option>
+            <option value="3">Level 3 (12 cards)</option>
+        </select>
+        <div id="game-board"></div>
+    </div>
+
+    <audio id="background-music" src="c:\Users\shiva\Downloads\Sakura-Girl-Daisy-chosic.com_.mp3" loop></audio>
+
+    <script src="../External JS.js"></script>
+     
+</body>
+</html>
